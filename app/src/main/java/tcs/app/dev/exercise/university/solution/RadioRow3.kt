@@ -23,7 +23,7 @@ import tcs.app.dev.ui.theme.AppTheme
 
 /**
  * ## [Row]:
- * - We align the elements in the vertically in the center using [Alignment.CenterVertically].
+ * - We align the elements vertically in the center using [Alignment.CenterVertically].
  * - We space the elements evenly using [Arrangement.SpaceBetween].
  * - We make the row as wide as possible using [fillMaxWidth].
  * - We add some space around all elements in the row using [padding].

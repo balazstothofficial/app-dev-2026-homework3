@@ -52,7 +52,7 @@ import tcs.app.dev.exercise.university.data.Universities
  * You can use [LMU], [TUM] and [Universities] as mock data.
  *
  * ## Tasks:
- * - First, we create a composable function `RadioRow`, which will be an selectable "element".
+ * - First, we create a composable function `RadioRow`, which will be a selectable "element".
  *   We want to add an image on the left, a title in the middle and a `RadioButton` on the right.
  * - `RadioRow` should take four parameters:
  *   1. `image: Painter`: This image should be shown on the left.
@@ -63,11 +63,12 @@ import tcs.app.dev.exercise.university.data.Universities
  * - Use the [Row] layout to display the 3 elements next to each other.
  * - Style our UI Elements with the following parameters and [Modifier]s.
  *   Always monitor what is happening and read up in the documentation.
- *   [Row]: [fillMaxWidth], [padding], [Alignment], [Arrangement];
- *   [Image]: [size], [clip];
- *   [Text]: [RowScope.weight], [padding];
- *   [RadioButton]: [padding].
- *   Try around with different values until it looks "good".
+ *     - [Row] : [fillMaxWidth], [padding], [Alignment], [Arrangement];
+ *     - [Image] : [size], [clip];
+ *     - [Text] : [RowScope.weight], [padding];
+ *     - [RadioButton] : [padding].
+ *
+ *     Try around with different values until it looks "good".
  * - We also want to give the `RadioRow` a background and a border:
  *   Wrap everything in a [Surface], and give it a border and rounded corners.
  *   Set the color of the surface and the border depending on the parameter `selected`.
@@ -175,7 +176,7 @@ import tcs.app.dev.exercise.university.data.Universities
  *   A good solution is to make the selections list scrollable.
  *   Use `Modifier.verticalScroll(rememberScrollState())` on the [Column], or replace it with a [LazyColumn].
  *   [Modifier.verticalScroll] moves the content using [rememberScrollState]; `scrollable` alone only handles gestures.
- *   Try out [LazyColumn]!
+ *   Try out [LazyColumn].
  *
  * ## Resources:
  * - [BackHandler](https://developer.android.com/reference/kotlin/androidx/activity/compose/package-summary#BackHandler(kotlin.Boolean,kotlin.Function0))

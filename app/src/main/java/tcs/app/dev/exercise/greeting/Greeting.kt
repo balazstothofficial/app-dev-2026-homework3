@@ -28,9 +28,9 @@ import androidx.compose.ui.tooling.preview.Preview
  *      2. Idempotent:
  *      It should behave the same way when called multiple times with the same argument,
  *      and it does not use other values such as global variables.
- *      3. Side-effect free:
+ *      3. Side effect free:
  *      Does not modify properties or global variables.
- *      We will learn later how to incorporate side-effects correctly.
+ *      We will learn later how to incorporate side effects correctly.
  * - When introducing state we will see why these properties are important.
  *
  * ## Tasks:
